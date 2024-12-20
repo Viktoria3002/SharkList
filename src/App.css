@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./img/figure-shark-fish.jpg');
+  max-width: 400px;
+  margin: 0 auto;
+  color: white;
+  margin-top: 100px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+button {
+  color: white;
+  background-color: black;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.AddTodoInput {
+  margin-bottom: 40px;
+}
